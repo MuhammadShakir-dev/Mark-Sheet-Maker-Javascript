@@ -1,0 +1,24 @@
+   let fname = prompt("Enter your First Name ");
+      let lname = prompt("Enter your Last Name");
+      let RollNo = prompt("Enter your Roll No");
+      let CName = prompt("Enter your Collage");
+      let Sub1 = parseInt(prompt("Enter your English Marks/100"));
+      let Sub2 = parseInt(prompt("Enter your DSA Marks/100"));
+      let Sub3 = parseInt(prompt("Enter your PF Marks/100"));
+
+      let total = Sub1 + Sub2 + Sub3;
+      let tt = total/300; 
+      let final = tt * 100;
+      document.write("<table border = 1px >");  
+      //document.write("======================================== <br>");
+      document.write("<tr>" + "<td>" + "Name : " + fname + " " + lname + "<br>" +  "</td>"+ "</tr>");
+      document.write("<tr>" + "<td>" + "Roll No : " + RollNo + "<br>" +"</td>"+ "</tr>");
+      document.write("<tr>" + "<td>" + "Collage : " + CName + "<br>" + "</td>"+ "</tr>");
+     // document.write("======================================== <br>");
+      document.write("<tr>" + "<td>" + "English : " + Sub1 + "/100" + "<br>" + "</td>"+ "</tr>");
+      document.write("<tr>" + "<td>" + "DSA : " + Sub2 + "/100" + "<br>" + "</td>"+ "</tr>");
+      document.write("<tr>" + "<td>" + "PF : " + Sub3 + "/100" + "<br>" + "</td>"+ "</tr>");
+    //  document.write("<br>");
+      document.write("<tr>" + "<td>" + "Total percentage is : " + final + "<br>"  + "</td>"+ "</tr>");
+    //  document.write("========================================");
+      document.write("<table>");  
